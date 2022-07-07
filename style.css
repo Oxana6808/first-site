@@ -2,9 +2,13 @@
     color: aliceblue;
 }
 
+body{
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Open Sans', sans-serif;
+    }
 
 .red{
-    color:red;
+    color:rgb(24, 103, 168);
     font-weight: bold;
     font-size: 40px;
 }
@@ -44,3 +48,28 @@
     margin: 5px;
     width: 500px;
 }
+
+.color_text{
+    color: transparent; 
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to bottom, rgb(175, 202, 214), rgba(23, 128, 198, 0.765));
+    }
+    
+.lorem{
+    border:2px dashed rgb(164, 40, 40);
+    margin-top: 10px;
+    padding: 10px 10px 10px 50px;
+    }
+    
+.picture-dev{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    }
+    
+.pict{
+    width: 400px;
+    height: 400px;
+    }
